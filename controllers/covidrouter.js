@@ -15,4 +15,6 @@ router.get("/viewall",async(req,res)=>{
     let data =await covidmodels.find()
     res.json(data)
 })
+
+
 module.exports=router
